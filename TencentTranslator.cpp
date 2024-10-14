@@ -1,11 +1,11 @@
 #include "TencentTranslator.h"
 #include <QSettings>
 // 初始化
-QString TencentTranslator::translation_API = "https://fanyi-api.baidu.com/api/trans/vip/translate";             // 翻译API
+QString TencentTranslator::translation_API = "https://fanyi-api.baidu.com/api/trans/vip/";             // 翻译API
 QString TencentTranslator::language_recognition_API = "https://fanyi-api.baidu.com/api/trans/vip/language";    // 语种识别API
 
-QString TencentTranslator::APPID = "20241012002173851";  // 翻译平台ID 用户自行申请
-QString TencentTranslator::KEY = "NfPm_5NznuGZV5ce1LNo";     // 密钥
+QString TencentTranslator::APPID = "";  // 翻译平台ID 用户自行申请
+QString TencentTranslator::KEY = "";     // 密钥
 
 QString TencentTranslator::hover_translationwindow_open = "ON";
 
